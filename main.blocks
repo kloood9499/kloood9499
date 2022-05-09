@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~j#zdNTZua%4{b)I6x,|">MyAge</variable></variables><block type="pxt-on-start" id="k#SiUvW^E)Pe:`f17z1V" x="10" y="-163"><statement name="HANDLER"><block type="variables_set" id="CZ8.Nob,?.S;|uc%8*t)"><field name="VAR" id="~j#zdNTZua%4{b)I6x,|">MyAge</field><value name="VALUE"><shadow type="math_number" id="ts$,9)N[kj9nprln@o4i"><field name="NUM">27</field></shadow></value><next><block type="device_show_number" id="(X`zg#bE;;3i3Bs!!$6n"><value name="number"><block type="variables_get" id="VEx[uUz]!IVzHcFSMw08"><field name="VAR" id="~j#zdNTZua%4{b)I6x,|">MyAge</field></block></value></block></next></block></statement></block><block type="device_button_event" id="gsNfQ;_;fD{|$[,N]bQr" x="-33" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="i@/)e{j..CU63PY:j2-x"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # . . 
+        # . . # . 
+        # # # . .
+        `</field></block></statement></block><block type="device_button_event" id="D)[J)lLJ/rYjRdr-6s[g" x="256" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="8Q9K#P/R#zr)MvFnP!Pk"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field></block></statement></block><block type="device_gesture_event" id="|XNz8lG2J*5U~}}eA?M|" x="115" y="350"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="*/8@)Dm+g9TIt?regt}K"><value name="number"><block type="device_random" id="jOO3KgM]aqG#Tm$E]qpw"><value name="min"><shadow type="math_number" id="De7W,vkAA8^-l^bjsG;V"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="5hAWwhstJ@lR=)0gLgij"><field name="NUM">9</field></shadow></value></block></value></block></statement></block></xml>
